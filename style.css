@@ -58,12 +58,7 @@ body{
 
     #judul{
         position: absolute;
-<<<<<<< HEAD
-        margin: -20px 25% 0;
-=======
         margin: -20px 30% 0;
->>>>>>> 24760c800116ae7b56b776afdfb2f6721a7d281b
-
         -webkit-animation: bounce 3s infinite ease-in-out;
         -o-animation: bounce 3s infinite ease-in-out;
         -ms-animation: bounce 3s infinite ease-in-out; 
