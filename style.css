@@ -357,16 +357,16 @@ a{
 }
 
 #section2{
-    height: 700px;
+    height: 1000px;
     /* background: blueviolet; */
     background-image: url("Asset/bg2.png");
-    background-size: cover;
+    background-size: 2000px 1000px;
     display: inline-block;
     width: 100%;
 }
 
 #section3{
-    height: 700px;
+    height: 1000px;
     /* background: pink; */
     background-image: url("Asset/bg2.png");
     background-size: cover;
