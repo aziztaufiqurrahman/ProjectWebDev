@@ -58,7 +58,7 @@ body{
 
     #judul{
         position: absolute;
-        margin: -20px 400px 0;
+        margin: -20px 30% 0;
 
         -webkit-animation: bounce 3s infinite ease-in-out;
         -o-animation: bounce 3s infinite ease-in-out;
