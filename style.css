@@ -351,7 +351,7 @@ a{
     height: 1000px;
     /* background: rgb(87, 156, 229); */
     background-image: url("Asset/Frame\ 1.png");
-    background-size: cover;
+    background-size: 2000px 1000px;
     display: inline-block;
     width: 100%;
 }
