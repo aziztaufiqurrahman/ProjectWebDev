@@ -338,18 +338,16 @@ li{
 }
 
 a{
-    padding: 20px;
-    width: 100px;
+    padding: 30px;
+    width: 120px;
     display: block;
     text-decoration: none;
-
     text-transform: uppercase;
     font-weight: bold;
 }
 
 #section1{
     height: 1000px;
-    /* background: rgb(87, 156, 229); */
     background-image: url("Asset/Frame 1.png");
     background-size: 2000px 1000px;
     display: inline-block;
@@ -382,16 +380,16 @@ h1{
 }
 
 #tk {
-  position: relative;
+  position: absolute;
   text-align: center;
 }
 
 #st{
   position: relative;
   text-align: right;
-  top: 60px;
-  right: -80px;
-  padding: 0;
+  top: 300px;
+  right: -20px;
+  /* padding: 0; */
 }
 
 
