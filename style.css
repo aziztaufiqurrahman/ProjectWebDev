@@ -32,7 +32,8 @@ body{
 
 /* MOUSE */
 .cursor {
-    position: absolute;
+    position: fixed;
+    /* z-index: 1000;
     width: 48px;
     height: 48px;
     top: 50%;
@@ -41,7 +42,7 @@ body{
     border: 3px solid #000000;
     border-radius: 100px;
     backface-visibility: hidden;
-    transition: transform 0.3s ease-out;
+    transition: transform 0.10s ease-out; */
   }
 .cursor.is-moving {
     transform: scale(0.7);
@@ -58,8 +59,7 @@ body{
 
     #judul{
         position: absolute;
-        margin: -20px 25% 0;
-
+        margin: -20px 30% 0;
         -webkit-animation: bounce 3s infinite ease-in-out;
         -o-animation: bounce 3s infinite ease-in-out;
         -ms-animation: bounce 3s infinite ease-in-out; 
@@ -375,9 +375,23 @@ a{
 }
 
 h1{
-    margin-top: 300px;
+    margin-top: 260px;
     text-align: center;
     padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#tk {
+  position: relative;
+  text-align: center;
+}
+
+#st{
+  position: relative;
+  text-align: right;
+  top: 60px;
+  right: -80px;
+  padding: 0;
 }
 
 
