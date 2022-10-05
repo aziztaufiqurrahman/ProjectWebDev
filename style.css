@@ -400,12 +400,119 @@ a{
   width: 100%;
 } 
 
+#kesenianCalung{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#kesenianCepet{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#kesenianNgahiras{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#tradisiHajatLaut{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#tradisiPanenPadi{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#tradisiBatikPakidulan{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#kampungAdatCiptaGelar{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#kampungAdatSinarResmi{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#kampungAdatCiptaMulya{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#peninggalanSitusCengkuk{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
+#peninggalanSitusPangguyangan{
+  height: 1000px;
+  /* background: pink; */
+  background-image: url("Asset/bg2.png");
+  /* background-size: cover; */
+  display: inline-block;
+  width: 100%;
+} 
+
 h1{
     margin-top: 280px;
     text-align: center;
     padding: 0;
     font-family:'Courier New', Courier, monospace;
 }
+
+h2{
+  margin-top: 150px;
+  text-align: center;
+  padding: 0;
+  font-family:'Courier New', Courier, monospace;
+}
+
 
 #tk {
   position: relative;
@@ -420,7 +527,19 @@ h1{
   /* padding: 0; */
 }
 
+#kesenian1{
+  position: relative;
+  margin: 200px 0%;
+  height: 400px;
+  width: 800px;
+}
 
+#kesenian2{
+  position: relative;
+  margin: 200px 50%;
+  height: 400px;
+  width: 800px;
+}
 
 
 
