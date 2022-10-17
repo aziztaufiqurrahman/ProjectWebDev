@@ -43,13 +43,14 @@
 html, body {
 scroll-behavior: smooth;
 max-width: 100%;
+height: auto;
 overflow-x: hidden;
 font-family: Arial, Helvetica, sans-serif;
 cursor: none;      
 }
 
 .paragraph {
-width: 150%; 
+width: 100%; 
 }
 
 /* MOUSE */
@@ -80,8 +81,8 @@ width: 150%;
 }
 
     #judul{
-        position: absolute;
-        margin: -20px 30% 0;
+        position: relative;
+        margin: center;
         -webkit-animation: bounce 3s infinite ease-in-out;
         -o-animation: bounce 3s infinite ease-in-out;
         -ms-animation: bounce 3s infinite ease-in-out; 
@@ -91,8 +92,8 @@ width: 150%;
 
     #leftBird{
         position: absolute;
-        margin-top: 50px;
-        margin-left: 60px;
+        margin-top: 50;
+        margin-left: 60;
 
         -webkit-animation: bounce 3s infinite ease-in-out;
         -o-animation: bounce 3s infinite ease-in-out;
@@ -104,8 +105,8 @@ width: 150%;
     #rightBird{
         position: absolute;
         float: right;
-        margin-top: 80px;
-        margin-left: 1300px;
+        margin-top: 80;
+        margin-left: 130;
 
         -webkit-animation: bounce 3s infinite ease-in-out;
         -o-animation: bounce 3s infinite ease-in-out;
@@ -126,8 +127,8 @@ width: 150%;
     border-radius: 10px;
     position: fixed;
     margin: 250px 0 0 0;
-    width: 54px;
-    height: 5px;
+    width: 54%;
+    height: 5%;
   }
   .cloud.tiny {
     -moz-transform: scale(0.5, 0.5);
@@ -370,147 +371,146 @@ a{
 }
 
 #section1{
-    height: 1000px;
+    max-height: 100%;
     background-image: url("Asset/Frame 1.png");
-    background-size: 2000px 1000px;
-    display: inline-block;
-    width: 100%;
+    background-size: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 
 
 #section2{
-    height: 1000px;
+    max-height: 100%;
     /* background: blueviolet; */
     background-image: url("Asset/bg2.png");
-    background-size: 2000px 1000px;
+    background-size: 100% auto;
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
 }
 
 #section3{
-    height: 1000px;
+    max-height: 100%;
     /* background: pink; */
     background-image: url("Asset/bg2.png");
-    /* background-size: cover; */
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
 }
 
 #section4{
-  height: 1000px;
+  max-height: 100%;
   /* background: blueviolet; */
   background-image: url("Asset/bg2.png");
-  background-size: 2000px 1000px;
+  background-size: 100% auto;
   display: inline-block;
-  width: 100%; }
+  max-width: 100%; }
 
 #section5{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #kesenianCalung{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #kesenianCepet{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #kesenianNgahiras{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #tradisiHajatLaut{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #tradisiPanenPadi{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #tradisiBatikPakidulan{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #kampungAdatCiptaGelar{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #kampungAdatSinarResmi{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #kampungAdatCiptaMulya{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #peninggalanSitusCengkuk{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 #peninggalanSitusPangguyangan{
-  height: 1000px;
+  max-height: 100%;
   /* background: pink; */
   background-image: url("Asset/bg2.png");
   /* background-size: cover; */
   display: inline-block;
-  width: 100%;
+  max-width: 100%;
 } 
 
 h1{
@@ -536,18 +536,18 @@ h2{
 #tk {
   position: relative;
   text-align: center;
-  -webkit-animation: fadeInDown  3s;
-  -o-animation: fadeInDown  3s;
-  -ms-animation: fadeInDown  3s ; 
-  -moz-animation: fadeInDown  3s; 
-  animation: fadeInDown  3s;
+  -webkit-animation: fadeInDown  5s;
+  -o-animation: fadeInDown  5s;
+  -ms-animation: fadeInDown  5s ; 
+  -moz-animation: fadeInDown  5s; 
+  animation: fadeInDown  5s;
 }
 
 #st{
   position: relative;
   text-align: right;
   top: 320px;
-  right: -130px;
+  right: auto;
   /* padding: 0; */
 }
 
@@ -564,10 +564,6 @@ h2{
   height: 400px;
   width: 800px;
 }
-
-
-
-
 
 
 
