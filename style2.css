@@ -878,14 +878,14 @@ a{
   overflow: hidden;
 }
 .content1 p:nth-child(1) {
-  width: 34em;
+  width: 31em;
   -webkit-animation: type 4s steps(40, end);
   animation: type 4s steps(40, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 .content1 p:nth-child(2) {
-  width: 38em;
+  width: 30em;
   opacity: 0;
   -webkit-animation: type2 5s steps(40, end);
   animation: type2 5s steps(40, end);
@@ -895,36 +895,17 @@ a{
   animation-fill-mode: forwards;
 }
 .content1 p:nth-child(3) {
-  width: 36em;
+  width: 19em;
   opacity: 0;
-  -webkit-animation: type2 4s steps(20, end);
-  animation: type2 4s steps(20, end);
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 9s;
   animation-delay: 9s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 
-.content1 p:nth-child(4) {
-  width: 40em;
-  opacity: 0;
-  -webkit-animation: type2 5s steps(40, end);
-  animation: type2 5s steps(40, end);
-  -webkit-animation-delay: 13s;
-  animation-delay: 13s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-.content1 p:nth-child(5) {
-  width: 17em;
-  opacity: 0;
-  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 18s;
-  animation-delay: 18s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
+
 
 .content2{
   margin-left: 53%;
@@ -941,14 +922,14 @@ a{
   overflow: hidden;
 }
 .content2 p:nth-child(1) {
-  width: 31em;
+  width: 40em;
   -webkit-animation: type 4s steps(40, end);
   animation: type 4s steps(40, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 .content2 p:nth-child(2) {
-  width: 9em;
+  width: 38em;
   opacity: 0;
   -webkit-animation: type2 5s steps(40, end);
   animation: type2 5s steps(40, end);
@@ -958,7 +939,7 @@ a{
   animation-fill-mode: forwards;
 }
 .content2 p:nth-child(3) {
-  width: 25em;
+  width: 27em;
   opacity: 0;
   -webkit-animation: type2 4s steps(20, end);
   animation: type2 4s steps(20, end);
@@ -968,7 +949,7 @@ a{
   animation-fill-mode: forwards;
 }
 .content2 p:nth-child(4) {
-  width: 29em;
+  width: 40em;
   opacity: 0;
   -webkit-animation: type2 5s steps(40, end);
   animation: type2 5s steps(40, end);
@@ -978,7 +959,7 @@ a{
   animation-fill-mode: forwards;
 }
 .content2 p:nth-child(5) {
-  width: 12em;
+  width: 17em;
   opacity: 0;
   -webkit-animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
   animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
@@ -1002,22 +983,50 @@ a{
   white-space: nowrap;
   overflow: hidden;
 }
-
 .content3 p:nth-child(1) {
-  width: 30em;
-  opacity: 0;
-  -webkit-animation: type2 5s steps(40, end);
-  animation: type2 5s steps(40, end);
+  width: 35em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 .content3 p:nth-child(2) {
-  width: 32em;
+  width: 8em;
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content3 p:nth-child(3) {
+  width: 25em;
+  opacity: 0;
+  -webkit-animation: type2 4s steps(20, end);
+  animation: type2 4s steps(20, end);
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content3 p:nth-child(4) {
+  width: 30em;
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 13s;
+  animation-delay: 13s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content3 p:nth-child(5) {
+  width: 12em;
   opacity: 0;
   -webkit-animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
   animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 18s;
+  animation-delay: 18s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -1036,29 +1045,57 @@ a{
   white-space: nowrap;
   overflow: hidden;
 }
-
 .content4 p:nth-child(1) {
-  width: 29em;
+  width: 31em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content4 p:nth-child(2) {
+  width: 32em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.content5{
+  margin-left: 53%;
+  margin-top: 21%;
+}
+
+.content5 p {
+  border-right: .15em solid orange;
+  font-family: 'Acme';
+  font-size: 14px;
+  font-size: 100%;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content5 p:nth-child(1) {
+  width: 32em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content5 p:nth-child(2) {
+  width: 11em;
   opacity: 0;
   -webkit-animation: type2 5s steps(40, end);
   animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-.content4 p:nth-child(2) {
-  width: 11em;
-  opacity: 0;
-  -webkit-animation: type2 4s steps(20, end);
-  animation: type2 4s steps(20, end);
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.content4 p:nth-child(3) {
-  width: 18em;
+.content5 p:nth-child(3) {
+  width: 23em;
   opacity: 0;
   -webkit-animation: type2 4s steps(20, end);
   animation: type2 4s steps(20, end);
@@ -1067,8 +1104,7 @@ a{
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-.content4 p:nth-child(4) {
+.content5 p:nth-child(4) {
   width: 33em;
   opacity: 0;
   -webkit-animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
@@ -1079,12 +1115,12 @@ a{
   animation-fill-mode: forwards;
 }
 
-.content4{
+.content6{
   margin-left: 53%;
   margin-top: 21%;
 }
 
-.content4 p {
+.content6 p {
   border-right: .15em solid orange;
   font-family: 'Acme';
   font-size: 14px;
@@ -1093,29 +1129,25 @@ a{
   white-space: nowrap;
   overflow: hidden;
 }
-
-.content4 p:nth-child(1) {
-  width: 20em;
+.content6 p:nth-child(1) {
+  width: 16em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content6 p:nth-child(2) {
+  width: 12em;
   opacity: 0;
   -webkit-animation: type2 5s steps(40, end);
   animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-.content4 p:nth-child(2) {
-  width: 15em;
-  opacity: 0;
-  -webkit-animation: type2 4s steps(20, end);
-  animation: type2 4s steps(20, end);
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.content4 p:nth-child(3) {
-  width: 24em;
+.content6 p:nth-child(3) {
+  width: 22em;
   opacity: 0;
   -webkit-animation: type2 4s steps(20, end);
   animation: type2 4s steps(20, end);
@@ -1124,9 +1156,8 @@ a{
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-.content4 p:nth-child(4) {
-  width: 22em;
+.content6 p:nth-child(4) {
+  width: 17em;
   opacity: 0;
   -webkit-animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
   animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
@@ -1135,6 +1166,229 @@ a{
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
+
+.content7{
+  margin-left: 53%;
+  margin-top: 25%;
+}
+
+.content7 p {
+  border-right: .15em solid orange;
+  font-family: 'Acme';
+  font-size: 14px;
+  font-size: 100%;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content7 p:nth-child(1) {
+  width: 38em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content7 p:nth-child(2) {
+  width: 29em;
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content7 p:nth-child(3) {
+  width: 14em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.content8{
+  margin-left: 53%;
+  margin-top: 25%;
+}
+
+.content8 p {
+  border-right: .15em solid orange;
+  font-family: 'Acme';
+  font-size: 14px;
+  font-size: 100%;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content8 p:nth-child(1) {
+  width: 35em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content8 p:nth-child(2) {
+  width: 34em;
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content8 p:nth-child(3) {
+  width: 25em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.content9{
+  margin-left: 53%;
+  margin-top: 25%;
+}
+
+.content9 p {
+  border-right: .15em solid orange;
+  font-family: 'Acme';
+  font-size: 14px;
+  font-size: 100%;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content9 p:nth-child(1) {
+  width: 16em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content9 p:nth-child(2) {
+  width: 10em;
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content9 p:nth-child(3) {
+  width: 20em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+.content10{
+  margin-left: 53%;
+  margin-top: 21%;
+}
+
+.content10 p {
+  border-right: .15em solid orange;
+  font-family: 'Acme';
+  font-size: 14px;
+  font-size: 100%;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content10 p:nth-child(1) {
+  width: 32em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content10 p:nth-child(2) {
+  width: 10sem;
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content10 p:nth-child(3) {
+  width: 14em;
+  opacity: 0;
+  -webkit-animation: type2 4s steps(20, end);
+  animation: type2 4s steps(20, end);
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content10 p:nth-child(4) {
+  width: 15em;
+  opacity: 0;
+  -webkit-animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 13s;
+  animation-delay: 13s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.content11{
+  margin-left: 53%;
+  margin-top: 21%;
+}
+.content11 p {
+  border-right: .15em solid orange;
+  font-family: 'Acme';
+  font-size: 14px;
+  font-size: 100%;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content11 p:nth-child(1) {
+  width: 26em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content11 p:nth-child(2) {
+  width: 19em;
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.content11 p:nth-child(3) {
+  width: 16em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+
 
 @keyframes type {
   0% {
