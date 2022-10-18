@@ -4,163 +4,537 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script><script  src="./script.js"></script>
-    <title>B2 | Keberagaman Budaya</title>
+    <title>Dyudyuk</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <div class="cursor"></div>
-      <div class="cloud large cloud-1">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud normal cloud-2">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud small cloud-3">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud tiny cloud-4">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud large cloud-5">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud normal cloud-6">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud small cloud-7">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud tiny cloud-8">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud small cloud-9">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud normal cloud-10">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud tiny cloud-11">
-        <div></div><div></div><div></div><div></div>
-      </div>
-      <div class="cloud small cloud-12">
-        <div></div><div></div><div></div><div></div>
-      </div>
-    <nav>
-         <ul>
-            <!-- <li><a href="#section3">More</a></li>
-            <li><a href="#section2">Profile</a></li> -->
-            <li><a href="#section1">Home</a></li>
-         </ul>
-    </nav>
-    <div class="wrapper">
-        <img id="judul" src="Asset/Judul.png" alt="title" width="600" height="250">
-        <img id="leftBird" src="Asset/left.png" alt="obj1" width="225" height="131">
-        <img id="rightBird" src="Asset/right.png" alt="obj2" width="225" height="131">
+    <div id="Home">
+        <div class="paralax">
+            <img src="Assets/bird.png" id="bird">
+            <img src="Assets/bird.png" id="bird2">
+            <img src="Assets/Kelapa.png" id="kelapa">
+            <img src="Assets/Kelapa.png" id="kelapa2">
+            <img src="Assets/crab.png" id="crab">
+            <img src="Assets/crab.png" id="crab2">
+            <img src="Assets/kerang.png" id="shell">
+            <img src="Assets/sand.png" id="sand">
+            <h1 id="text">Welcome to Ciletuh</h1>
+            <a href="#section1" id="button" onclick="myFunction()">Start the Journey</a>
+        </div>
     </div>
-    <div id ="section1">
-        <h1>KEBERAGAMAN BUDAYA CILETUH GEOPARK</h1>
+    <div id="section1">
+        <div class="cloud large cloud-1">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud normal cloud-2">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud small cloud-3">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud tiny cloud-4">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud large cloud-5">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud normal cloud-6">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud small cloud-7">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud tiny cloud-8">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud small cloud-9">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud normal cloud-10">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud tiny cloud-11">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="cloud small  cloud-12">
+            <div></div><div></div><div></div><div></div>
+        </div>
+        <div class="wrap">
+            <img id="leftBird" src="Assets/left.png" alt="obj1">
+            <img id="judul" src="Assets/Judul.png" alt="title">
+            <img id="rightBird" src="Assets/right.png" alt="obj2">
+        </div>
+        <div class="title">
+            <img id="map" src="Assets/peta.png" alt="map">
+            <div class="word"></div>
+        </div>
+        <div class="mark" >
+            <img id="mark" data-ani="flip" src="Assets/tanda.png" alt="mark">
+        </div>
+        <div id="arrow" class="fade-in">
+            <img id="signpost" src="Assets/signpost1.png" alt="signpost"/>
+            <div class="waveTextAnimated">
+                <a href="#section2" ><span>K</span><span>E</span><span>S</span><span>E</span><span>N</span><span>I</span><span>A</span><span>N</span></a>
+            </div>
+        </div>
+        <div id="arrow2" class="fade-in">
+            <img id="signpost" src="Assets/signpost.png" alt="signpost"/>
+            <div class="waveTextAnimated">
+                <a href="#section10"><span>T</span><span>R</span><span>A</span><span>D</span><span>I</span><span>S</span><span>I</span></a>
+            </div>
+        </div>
+        <div id="arrow3" class="fade-in">
+            <img id="signpost" src="Assets/signpost.png" alt="signpost"/>
+            <div class="waveTextAnimated">
+                <a href="#section5"><span>K</span><span>A</span><span>M</span><span>P</span><span>U</span><span>N</span><span>G</span><span> A</span><span>D</span><span>A</span><span>T</span></a>
+            </div>
+        </div>
+        <div id="arrow4" class="fade-in">
+            <img id="signpost" src="Assets/signpost.png" alt="signpost"/>
+            <div class="waveTextAnimated">
+                <a href="#section8"><span>P</span><span>E</span><span>N</span><span>I</span><span>N</span><span>G</span><span>G</span><span>A</span><span>L</span><span>A</span><span>N</span></a>
+            </div>
+        </div>
     </div>
-
-    <div id="section2">
-      <img id="judul" src="Asset/Judul2.png" alt="title" width="600" height="250">
-      <h1>CILETUH memiliki berbagai macam kesenian<br>SILAKAN PILIH SALAH SATU!</h1>
-        <div class="row">
-          <div class="col-sm-4"><a href="#kesenianCalung"><object id = "tk" data="Asset/calung.png" width="300" height="600"></object></a></div>
-          <div class="col-sm-4"><a href="#kesenianCepet"><object id = "tk" data="Asset/cepet.png" width="300" height="600"></object></a></div>
-          <div class="col-sm-4"><a href="#kesenianNgahiras"><object id = "tk" data="Asset/ngahiras.png" width="280" height="560"></object></a></div>
+    <div id="container2">
+        <div id="section2">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area1">
+                <img src="Assets/calung2.png" alt="image" class="firstImage">
+                <img src="Assets/calung1.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn1">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn1">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area1">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap2">
+            <img id="judul2" src="Assets/Calung.png" alt="title2">
+        </div>
+        <div class="content1">
+            <p>
+              Calung adalah salah satu kesenian tradisional yang ada di Jawa Barat (sunda) 
+            </p>
+            <p>
+              yang terbuat dari bambu (kebanyakan bambu hitam) dan tersusun menurut 
+            </p>
+            <p>
+              titi laras (tangga nada) pentatonik da-mi-la-ti-la.
+            </p>
+        </div>
+    </div>
+    <div id="container2">
+        <div id="section3">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area2">
+                <img src="Assets/cepet2.png" alt="image" class="firstImage">
+                <img src="Assets/cepet1.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn2">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn2">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area2">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap3">
+            <img id="judul3" src="Assets/Cepet.png" alt="title3">
+        </div>
+        <div class="content1">
+            <p>
+                Tari Cepet merupakan salah satu nama tari yang dipentaskan di beberapa daerah, 
+            </p>
+            <p>
+                antara lain di Kebumen Provinsi Jawa Tengah dan Kabupaten Sukabumi Provinsi Jawa Barat.
+            </p>
+            <p>
+                Sejarah Tari Cepet Sukabumi berawal dari sekelompok masyarakat berjumlah sekitar 200 
+            </p>
+            <p>
+                orang yang berasal dari Jawa Tengah pada tahun 1935 dibawa (dibuang) oleh Penjajah Belanda 
+            </p>
+            <p>
+                ke daerah hutan di Kabupaten Sukabumi.
+            </p>
         </div>
     </div>
 
-    <div id="kesenianCalung">
-      <img id="kesenian1" src="Asset/kesenian/calung1.png" alt="title" width="600" height="250">
-      <img id="kesenian1" src="Asset/kesenian/calung2.png" alt="title" width="600" height="250">
-    </div>
+    <div id="container2">
+        <div id="section4">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area3">
+                <img src="Assets/ngahiras1.png" alt="image" class="firstImage">
+                <img src="Assets/ngahiras2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn3">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn3">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area3">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap4">
+            <img id="judul4" src="Assets/Ngahiras.png" alt="title4">
+        </div>
+        <div class="content2">
+            <p>
+                Ngahiras merupakan salah satu tradisi sunda yang menggambarkan tentang  
+            </p>
+            <p>
+                sikap gotong royong. 
+            </p>
+            <p>
+                Tradisi ini masih kental di lingkungan masyarakat pedesaan. 
+            </p>
+            <p>
+                Tentu merupakan sebuah cerminan identitas daerah yang mesti menjadi
+            </p>
+            <p>
+                panutan dalam sosial budaya.
+            </p>
+        </div>
+    </div> 
 
-    <div id="kesenianCepet">
-      <img id="kesenian1" src="Asset/kesenian/cepet1.png" alt="title" width="600" height="250">
-      <img id="kesenian1" src="Asset/kesenian/cepet2.png" alt="title" width="600" height="250">
-    </div>
-
-    <div id="kesenianNgahiras">
-      <img id="kesenian1" src="Asset/kesenian/ngahiras1.png" alt="title" width="600" height="250">
-      <img id="kesenian1" src="Asset/kesenian/ngahiras2.png" alt="title" width="600" height="250">
-    </div>
-
-    <div id="section3">
-      <img id="judul" src="Asset/Judul3.png" alt="title" width="600" height="250">
-      <h1>CILETUH memiliki berbagai macam tradisi<br>SILAKAN PILIH SALAH SATU!</h1>
-        <div class="row">
-          <div class="col-sm-4"><a href="#tradisiHajatLaut"><object id = "tk" data="Asset/hajatLaut.png" width="300" height="600"></object></a></div>
-          <div class="col-sm-4"><a href="#tradisiPanenPadi"><object id = "tk" data="Asset/panenPadi.png" width="300" height="600"></object></a></div>
-          <div class="col-sm-4"><a href="#tradisiBatikPakidulan"><object id = "tk" data="Asset/batikPakidulan.png" width="280" height="560"></object></a></div>
+    <div id="container2">
+        <div id="section5">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area4">
+                <img src="Assets/ciptagelar1.png" alt="image" class="firstImage">
+                <img src="Assets/ciptagelar2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn4">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn4">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area4">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap5">
+            <img id="judul5" src="Assets/Ciptagelar.png" alt="title4">
+        </div>
+        <div class="content3"> 
+            <!-- content 3 belum dibuat -->
+            <p>
+                Kampung Adat Ciptagelar merupakan sebuah desa di Kabupaten Sukabumi
+            </p>
+            <p>
+                yang masyarakatnya masih memegang erat tradisi leluhur sebagai orang Sunda.
+            </p>  
         </div>
     </div>
 
-    <div id="tradisiHajatLaut">
-      <img id="kesenian1" src="Asset/tradisi/hajatLaut1.png" alt="title" width="600" height="250">
-      <img id="kesenian1" src="Asset/tradisi/hajatLaut2.png" alt="title" width="600" height="250">
-    </div>
-
-    <div id="tradisiPanenPadi">
-      <img id="kesenian1" src="Asset/tradisi/serenTaun1.png" alt="title" width="600" height="250">
-      <img id="kesenian1" src="Asset/tradisi/serenTaun2.png" alt="title" width="600" height="250">
-    </div>
-
-    <div id="tradisiBatikPakidulan">
-      <img id="kesenian1" src="Asset/tradisi/batikPakidulan1.png" alt="title" width="600" height="250">
-      <img id="kesenian1" src="Asset/tradisi/batikPakidulan2.png" alt="title" width="600" height="250">
-    </div>
-
-    <div id="section4">
-      <img id="judul" src="Asset/Judul4.png" alt="title" width="600" height="250">
-      <h1>CILETUH memiliki berbagai macam kampung adat<br>SILAKAN PILIH SALAH SATU!</h1>
-        <div class="row">
-          <div class="col-sm-4"><a href="#kampungAdatCiptaGelar"><object id = "tk" data="Asset/ciptaGelar.png" width="300" height="600"></object></a></div>
-          <div class="col-sm-4"><a href="#kampungAdatSinarResmi"><object id = "tk" data="Asset/sinarResmi.png" width="300" height="600"></object></a></div>
-          <div class="col-sm-4"><a href="#kampungAdatCiptaMulya"><object id = "tk" data="Asset/ciptaMulya.png" width="280" height="560"></object></a></div>
+    <div id="container2">
+        <div id="section6">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area5">
+                <img src="Assets/sinarresmi1.png" alt="image" class="firstImage">
+                <img src="Assets/sinarresmi2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn5">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn5">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area5">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap6">
+            <img id="judul6" src="Assets/Sinarresmi.png" alt="title4">
+        </div>
+        <div class="content4">
+            <p>
+                Kasepuhan Sinar Resmi merupakan keragaman salah satu kampung adat  
+            </p>
+            <p>
+                Kasepuhan Banten Kidul
+            </p>
+            <p>
+                yang masih dipertahankan kelestariannya.
+            </p>
+            <p>
+                Kasepuhan Sinar Resmi bagian budaya yang tidak terpisahkan dari Geopark Ciletuh. 
+            </p>  
         </div>
     </div>
 
-  <div id="kampungAdatCiptaGelar">
-    <img id="kesenian1" src="Asset/kampungAdat/ciptaGelar1.png" alt="title" width="600" height="250">
-    <img id="kesenian1" src="Asset/kampungAdat/ciptaGelar2.png" alt="title" width="600" height="250">
-  </div>
+    <div id="container2">
+        <div id="section7">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area6">
+                <img src="Assets/ciptamulya1.png" alt="image" class="firstImage">
+                <img src="Assets/ciptamulya2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn6">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn6">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area6">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap7">
+            <img id="judul7" src="Assets/Ciptamulya.png" alt="title4">
+        </div>
+        <div class="content2">
+            <p>
+                Kasepuhan Ciptamulya merupakan bagian dari
+            </p>
+            <p>
+                Kesatuan adat Banten Kidul,
+            </p>
+            <p>
+                bersama sejumlah kasepuhan lainnya yang tersebar
+            </p>
+            <p>
+                di wilayah Provinsi Jawa Barat dan Banten.
+            </p>
+        </div>
+    </div>
 
-  <div id="kampungAdatSinarResmi">
-    <img id="kesenian1" src="Asset/kampungAdat/sinarResmi1.png" alt="title" width="600" height="250">
-    <img id="kesenian1" src="Asset/kampungAdat/sinarResmi2.png" alt="title" width="600" height="250">
-  </div>
+    <div id="container2">
+        <div id="section8">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area7">
+                <img src="Assets/situsGedeCengkuk1.png" alt="image" class="firstImage">
+                <img src="Assets/situsGedeCengkuk2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn7">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn7">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area7">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap8">
+            <img id="judul8" src="Assets/Situsgedecengkuk.png" alt="title4">
+        </div>
+        <div class="content2">
+            <p>Tugu Gede merupakan situs peninggalan zaman prasejarah yang terletak di kampung Cengkuk,</p>
+            <p>kelurahan Margalaksana, kecamatan Cikakak, Kabupaten Sukabumi.</p>
+            <p>Luas situs Tugu Gede mencapai 2 Ha</p>
+        </div>
+    </div>
 
-  <div id="kampungAdatCiptaMulya">
-    <img id="kesenian1" src="Asset/kampungAdat/ciptaMulya1.png" alt="title" width="600" height="250">
-    <img id="kesenian1" src="Asset/kampungAdat/ciptaMulya2.png" alt="title" width="600" height="250">
-  </div>
 
-  <div id="section5">
-    <img id="judul" src="Asset/Judul5.png" alt="title" width="600" height="250">
-      <h1>CILETUH memiliki berbagai macam peninggalan<br>SILAKAN PILIH SALAH SATU!</h1>
-        <div class="row">
-          <center>
-          <div class="col-sm-5"><a href="#peninggalanSitusCengkuk"><object id = "tk" data="Asset/situsCengkuk.png" width="300" height="560"></object></a></div>
-          <div class="col-sm-5"><a href="#peninggalanSitusPangguyangan"><object id = "tk" data="Asset/situsPanggguyangan.png" width="300" height="560"></object></a></div>
-          </center>
-        </div>   
-  </div>
+    <div id="container2">
+        <div id="section9">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area8">
+                <img src="Assets/situspangguyangan1.png" alt="image" class="firstImage">
+                <img src="Assets/situspangguyangan2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn8">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn8">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area8">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap9">
+            <img id="judul9" src="Assets/Situspangguyangan.png" alt="title4">
+        </div>
+        <div class="content2">
+            <p>Situs Pangguyangan merupakan situs peninggalan tradisi megalitik </p>
+            <p>dengan komponen-komponen yang terdiri dari teras berundak, struktur berundak,</p>
+            <p>struktur berundak, dan punden berundak serta batu-batu tegak.</p>
+        </div>
+    </div>
 
-  <div id="peninggalanSitusCengkuk">
-    <img id="kesenian1" src="Asset/peninggalan/gedeCengkuk1.png" alt="title" width="600" height="250">
-    <img id="kesenian1" src="Asset/peninggalan/gedeCengkuk2.png" alt="title" width="600" height="250">
-  </div>
+    <div id="container2">
+        <div id="section10">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area9">
+                <img src="Assets/hajatLaut1.png" alt="image" class="firstImage">
+                <img src="Assets/hajatLaut2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn9">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn9">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area9">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap10">
+            <img id="judul10" src="Assets/Hajatlaut.png" alt="title4">
+        </div>
+        <div class="content2">
+            <p>Pesta Laut atau Hajat Laut adalah </p>
+            <p>upacara yang dilakukan </p>
+            <p>sebagai rasa syukur atas hasil laut yang melimpah</p>
+        </div>
+    </div>
 
-  <div id="peninggalanSitusPangguyangan">
-    <img id="kesenian1" src="Asset/peninggalan/situsPangguyangan1.png" alt="title" width="600" height="250">
-    <img id="kesenian1" src="Asset/peninggalan/situsPangguyangan2.png" alt="title" width="600" height="250">
-  </div>
-    
+    <div id="container2">
+        <div id="section11">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area10">
+                <img src="Assets/Panenpadi1.png" alt="image" class="firstImage">
+                <img src="Assets/Panenpadi2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn10">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn10">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area10">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap11">
+            <img id="judul11" src="Assets/Panenpadi.png" alt="title4">
+        </div>
+        <div class="content2">
+            <p>
+                Seren taun merupakan puncak upacara  dari kegiatan masyarakat adat Ciptagelar
+              </p>
+              <p>
+                dalam daur hidup padi. 
+              </p>
+              <p>
+                Upacara dilakukan sebagai simbol 
+              </p>
+              <p>dari panen raya pada tahun tersebut.</p>
+        </div>
+    </div>
+
+    <div id="container2">
+        <div id="section12">
+            <!-- Wrapper -->
+            <div class="wrapper">
+                <!-- Images Area -->
+                <div class="images-area" id="images-area11">
+                <img src="Assets/Batikpakidulan1.png" alt="image" class="firstImage">
+                <img src="Assets/Batikpakidulan2.png" alt="image">
+                </div>
+                <!-- Buttons Area -->
+                <div class="buttons-area">
+                    <div class="previous-btn" id="previous-btn11">
+                        <i class='bx bx-chevron-left'> < </i>
+                      </div>
+                      <div class="next-btn" id="next-btn11">
+                        <i class='bx bx-chevron-right'> > </i>
+                      </div>
+                </div>
+                <!-- Pagination Area -->
+                    <div class="pagination-area" id="pagination-area11">
+                </div>
+            </div>
+            <!-- End Wrapper -->
+        </div>
+        <div class="wrap12">
+            <img id="judul12" src="Assets/Batikpakidulan.png" alt="title4">
+        </div>
+        <div class="content1">
+            <p>
+                Batik Pakidulan merupakan batik khas Sukabumi yang memiliki
+              </p>
+              <p>motif khas keindahan alam di Geopark Ciletuh.</p>
+              <p>
+                khas keindahan alam di Geopark Ciletuh. </p>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
+    <script src="script.js"></script>
 </body>
 </html>
